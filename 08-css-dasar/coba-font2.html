@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba CSS - Font Styling</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sekuya&display=swap");
+
+      @font-face {
+        font-family: gilroy;
+        src: url(fonts/Gilroy-Bold.ttf) format("truetype");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      h1 {
+        color: crimson;
+        font-size: 60px;
+        text-align: center;
+        font-family: "Sekuya", system-ui;
+      }
+      p {
+        color: navy;
+        text-align: center;
+        font-size: 30px;
+        font-family: "Inter", sans-serif;
+      }
+
+      .font-gilroy {
+        font-family: gilroy, arial, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Hello World</h1>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore quibusdam
+      iste quaerat hic alias eveniet totam nihil enim modi impedit.
+    </p>
+    <p class="font-gilroy">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quis
+      odit ipsum eos neque odio est cumque quisquam inventore culpa.
+    </p>
+  </body>
+</html>
